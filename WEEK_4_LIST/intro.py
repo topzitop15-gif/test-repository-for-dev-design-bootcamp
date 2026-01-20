@@ -3,6 +3,7 @@
 # A list is a data type, just like a string, boolean,integer and float 
 # It is a container that holds multiple value in a single variable
 #  - A playlist with multiple songs
+# []
 
 #Test scores
 scores = [56, 90, 34, 75, 45, 89, 65, 45]

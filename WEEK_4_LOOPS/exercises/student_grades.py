@@ -5,7 +5,7 @@
 #Check if each score is valid(between 0 and 100)
 #Calculate the average of all scores
 # Tell the teacher :
-#Who passed (score >= 60)
+#Who passed (score >= 60) +1} ---")
 #Who failed (score < 50)
 #the class average
 #the highest and lowest score
@@ -32,7 +32,7 @@ passed_students = []
 failed_students = []
 
 for num in range (num_students):
-    print(f"\n ---Student {num +1} ---")
+    print(f"\n ---Student {num+1} ---")
 
     # Ask student_name
     student_name = input ("Enter student name: ")
@@ -46,7 +46,7 @@ for num in range (num_students):
 
     print ("Score recorded !") 
 
-    #Add to the total for calcilation of average
+    #Add to the total for calculation of average
     total_score = total_score + student_score  
     print ("The total score is:", total_score) 
 
